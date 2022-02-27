@@ -1,8 +1,25 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-a {
-  color: #00B7FF;
+body {
+  height: 100vh;
+  overflow-y: scroll;
+}
+header {
+  background-color: rgb(27, 49, 35);
+}
+.thumbnail {
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  top: -170px;
+  left: 40%;
+  position: relative;
 }
